@@ -1,0 +1,29 @@
+{
+  "name": "store-api",
+  "version": "1.0.0",
+  "description": "store-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bczarnobay/store-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bczarnobay/store-api/issues"
+  },
+  "homepage": "https://github.com/bczarnobay/store-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^2.2.16",
+    "mongoose-paginate-v2": "^1.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
